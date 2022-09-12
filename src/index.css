@@ -1,13 +1,152 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.MyNavbar{
+  display: flex;
+  height: 55px;
+  background: #F55A5A;
+  justify-content: center;
+  left: 0px;
+  top: 0px;
+}
+
+.NavImg{
+  width: 24px;
+  height: 24px;
+  margin-left: 213px;
+  margin-top: 16px;
+  
+}
+
+
+.NavTitle{
+  width: 109px;
+  height: 16px;
+  margin-left: 7px;
+  margin-top: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+
+}
+.cardsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+  
+  
+}
+
+.card{
+  display: flex;
+  width: 471px;
+  height: 168px;
+  margin-left: 39px;
+  margin-top: 64px;
+
+}
+.CardImg{
+  width: 225px;
+  height: 168px;
+  left: 40px;
+  top: 117px;
+  border-radius: 5px;
+}
+.CardContent{
+  width: 326px;
+  height: 144px;
+  margin-left: 19px;
+  top: 327px;
+}
+
+.MapContent{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-bottom: 7px;
+}
+
+.Location{
+  width: 7px;
+  height: 9.55px;
+  left: 188px;
+ 
+}
+.Text{
+  width: 50px;
+  height: 10px;
+  left: 203px;
+  top: 337px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-left: 2px;
+}
+
+.MapText{
+  width: 106px;
+  height: 13px;
+  margin-left: 12px;
+  top: 119px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+/* identical to box height */
+text-decoration-line: underline;
+color: #918E9B;
+}
+
+.CardHeadingOne{
+  width: 326px;
+  height: 33px;
+  left: 184px;
+  margin-top: 7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.CardHeadingTwo{
+  width: 319px;
+  height: 11px;
+  left: 184px;
+  margin-top: 14px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+.CardParaText{
+  width: 200px;
+  height: 60px;
+  left: 192px;
+  top: 406px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+/* or 15px */
+color: #2B283A;
 }
